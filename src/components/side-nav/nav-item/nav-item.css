@@ -10,7 +10,7 @@
  }
 
  .nav-item-link:hover {
-     background-color: rgba(224, 209, 209, 0.5);
+     background-color: var(--second-color)
  }
 
  .notifications {
@@ -19,7 +19,7 @@
      font-size: 12px;
      line-height: 20px;
      font-weight: 500;
-     color: #FFFFFF;
+     color: var(--main-color);
      border-radius: 50%;
      background-color: #1879FF;
      height: 20px;

@@ -8,7 +8,7 @@ aside {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #FFFFFF;
+    color: var(--main-color);
 }
 
 nav {
@@ -37,5 +37,5 @@ footer a {
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-    color: #8F98A6;
+    color: var(--second-color);
 }
