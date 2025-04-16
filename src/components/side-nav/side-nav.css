@@ -1,0 +1,40 @@
+aside {
+    height: 100%;
+    width: 284px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E5E5E5;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.aside-header {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 11px;
+    margin-bottom: 35px;
+}
+
+footer a {
+    display: flex;
+    gap: 11px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #8F98A6;
+}

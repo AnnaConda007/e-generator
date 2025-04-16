@@ -1,0 +1,27 @@
+ .nav-item-link {
+     display: flex;
+     justify-content: flex-start;
+     gap: 11px;
+     align-items: center;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+     padding: 13px 0;
+ }
+
+ .nav-item-link:hover {
+     background-color: rgba(224, 209, 209, 0.5);
+ }
+
+ .notifications {
+     margin-left: auto;
+     text-align: center;
+     font-size: 12px;
+     line-height: 20px;
+     font-weight: 500;
+     color: #FFFFFF;
+     border-radius: 50%;
+     background-color: #1879FF;
+     height: 20px;
+     width: 20px;
+ }
